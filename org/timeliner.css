@@ -3,7 +3,7 @@
 	margin: 0 10px;
 	padding: 0 0 5px 0;
 	width: 100%;
-	border-left: 2px solid #e6e6e6;
+	border-left: 2px solid #e1e1e1;
 }
 
 #timelineContainer:after {
@@ -14,7 +14,7 @@
 	bottom: -4px;
 	height: 18px;
 	width: 18px;
-	background: #e6e6e6;
+	background: #e1e1e1;
 	z-index: 10;
 
 	-webkit-border-radius: 50%;
@@ -26,7 +26,7 @@
 
 
 #timelineContainer a:hover {
-	color: #227ad1;
+	color: #2a6496;
 }
 
 
@@ -40,6 +40,12 @@
 
 .timelineToggle a {
 	position: relative;
+
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
 }
 
 .timelineToggle a.expandAll,
@@ -54,10 +60,9 @@
 	font-style: inherit;
 	font-size: inherit;
 	text-decoration: inherit;
-	margin: 0 .3em 0 0;
-	padding: 0;
 	display: inline-block;
-	speak: none;
+	width: 1.2857142857142858em;
+	text-align: center;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -67,15 +72,9 @@
 	-ms-text-rendering: optimizeLegibility;
 	-o-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
-
-	-webkit-transition: all .3s linear;
-	-moz-transition: all .3s linear;
-	-ms-transition: all .3s linear;
-	-o-transition: all .3s linear;
-	transition: all .3s linear;
 }
 
-/* icon-collapse */
+/* fa-caret-square-o-down */
 .timelineToggle a.expandAll.expandAllclosed:before {
 	content: '\f150';
 }
@@ -83,7 +82,7 @@
 	content: 'すべて展開する';
 }
 
-/* icon-expand */
+/* fa-caret-square-o-right */
 .timelineToggle a.expandAll.expandAllopen:before {
 	content: '\f152'
 }
@@ -139,7 +138,7 @@
 	margin-top: -5px;
 	height: 10px;
 	width: 10px;
-	background: #e6e6e6;
+	background: #e1e1e1;
 	z-index: 11;
 
 	-webkit-border-radius: 50%;
@@ -158,13 +157,13 @@
 	background: #e6e6e6;
 	letter-spacing: .1em;
 	line-height: 1.1em;
-	padding: 0 5px;
+	padding: 0 .5em;
 
-	-webkit-box-shadow: 2px 2px 2px #d3d3d3;
-	-moz-box-shadow: 2px 2px 2px #d3d3d3;
-	-ms-box-shadow: 2px 2px 2px #d3d3d3;
-	-o-box-shadow: 2px 2px 2px #d3d3d3;
-	box-shadow: 2px 2px 2px #d3d3d3;
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .timelineMajor h2 span:after {
@@ -194,17 +193,17 @@
 
 
 .timelineMajor h2:hover:after {
-	background: #227ad1;
+	background: #2a6496;
 }
 
 .timelineMajor h2:hover span {
 	color: #fff !important;
-	background: #227ad1;
+	background: #2a6496;
 	text-decoration: none;
 }
 
 .timelineMajor h2:hover span:after {
-	border-right-color: #227ad1;
+	border-right-color: #2a6496;
 }
 
 .timelineMajor h2:hover a {
@@ -359,7 +358,7 @@
 .timelineEvent div.media .gallery.default .gallery-icon a img {
 	min-width: 120px;
 	max-width: 400px;
-	width: 100%;
+	width: 98.3333%;
 }
 
 

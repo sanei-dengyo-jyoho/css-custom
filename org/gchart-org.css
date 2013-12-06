@@ -2,8 +2,9 @@
 #gchart_org_desc,
 #gchart_org_head,
 #gchart_org_branch {
-	position: relative;
 	background: none;
+
+	position: relative;
 	border: none;
 	line-height: 9px;
 	margin: 0 2px;
@@ -18,18 +19,19 @@
 #gchart_org_head table,
 #gchart_org_branch table {
 	background: none;
-	border: none;
-	line-height: 9px;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	overflow: visible;
 
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-ms-box-shadow: none;
-	-o-box-shadow: none;
-	box-shadow: none;
+	border: none !important;
+	line-height: 9px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	overflow: visible !important;
+
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 
@@ -38,15 +40,16 @@
 #gchart_org_head table tr,
 #gchart_org_branch table tr {
 	background: none;
-	border: none;
-	margin: 0;
-	padding: 0;
 
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-ms-box-shadow: none;
-	-o-box-shadow: none;
-	box-shadow: none;
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 
@@ -55,14 +58,15 @@
 #gchart_org_head table th,
 #gchart_org_branch table th {
 	background: none;
-	margin: 0;
-	padding: 0;
 
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-ms-box-shadow: none;
-	-o-box-shadow: none;
-	box-shadow: none;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 
@@ -70,69 +74,104 @@
 #gchart_org_desc table td,
 #gchart_org_head table td,
 #gchart_org_branch table td {
-	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", Helvetica, Arial, Sans-serif;
 	background: none;
-	line-height: 110%;
-	margin: 0;
-	padding: 2px;
-	text-align: center;
-	vertical-align: middle;
 
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-ms-box-shadow: none;
-	-o-box-shadow: none;
-	box-shadow: none;
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", Helvetica, Arial, Sans-serif !important;
+	line-height: 110% !important;
+	margin: 0 !important;
+	padding: 2px !important;
+	text-align: center !important;
+	vertical-align: middle !important;
+
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+
+.google-visualization-orgchart-space-large,
+.google-visualization-orgchart-space-medium,
+.google-visualization-orgchart-space-small {
+	border: none !important;
+}
+
+.google-visualization-orgchart-linenode {
+	border: none !important;
 }
 
 
 #gchart_org .google-visualization-orgchart-lineleft {
-	border-left: 1px solid #EEEEEE;
+	border-left: 1px solid #dcdcdc !important;
 }
 
 #gchart_org .google-visualization-orgchart-lineright {
-	border-right: 1px solid #EEEEEE;
+	border-right: 1px solid #dcdcdc !important;
 }
 
 #gchart_org .google-visualization-orgchart-linebottom {
-	border-bottom: 1px solid #EEEEEE;
+	border-bottom: 1px solid #dcdcdc !important;
 }
 
 
 #gchart_org_desc .google-visualization-orgchart-lineleft {
-	border-left: 1px solid #EFE795;
+	border-left: 1px solid #f5e79e !important;
 }
 
 #gchart_org_desc .google-visualization-orgchart-lineright {
-	border-right: 1px solid #EFE795;
+	border-right: 1px solid #f5e79e !important;
 }
 
 #gchart_org_desc .google-visualization-orgchart-linebottom {
-	border-bottom: 1px solid #EFE795;
+	border-bottom: 1px solid #f5e79e !important;
 }
 
 
 #gchart_org_head .google-visualization-orgchart-lineleft {
-	border-left: 1px solid #3388DD;
+	border-left: 1px solid #9acfea !important;
 }
 
 #gchart_org_head .google-visualization-orgchart-lineright {
-	border-right: 1px solid #3388DD;
+	border-right: 1px solid #9acfea !important;
 }
 
 #gchart_org_head .google-visualization-orgchart-linebottom {
-	border-bottom: 1px solid #3388DD;
+	border-bottom: 1px solid #9acfea !important;
 }
 
 
 #gchart_org_branch .google-visualization-orgchart-lineleft {
-	border-left: 1px solid #33DD33;
+	border-left: 1px solid #b2dba1 !important;
 }
 
 #gchart_org_branch .google-visualization-orgchart-lineright {
-	border-right: 1px solid #33DD33;
+	border-right: 1px solid #b2dba1 !important;
 }
 
 #gchart_org_branch .google-visualization-orgchart-linebottom {
-	border-bottom: 1px solid #33DD33;
+	border-bottom: 1px solid #b2dba1 !important;
+}
+
+
+.google-visualization-orgchart-table tr:hover,
+.google-visualization-orgchart-table tr td.google-visualization-orgchart-node:hover{
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
+
+	-webkit-opacity:none !important;
+	-moz-opacity: none !important;
+	-ms-opacity: none !important;
+	-o-opacity:none !important;
+	opacity: none !important;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100) !important;
+
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
 }
